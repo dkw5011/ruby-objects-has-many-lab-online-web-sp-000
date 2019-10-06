@@ -9,13 +9,7 @@ class Post
     save
   end
   
-  def author
-    @author
-  end
   
-  def author= (author)
-  @author
-end
 
    def author_name
     self.author.name if self.author
